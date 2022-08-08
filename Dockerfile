@@ -19,7 +19,5 @@ RUN pip install -r requirements.txt
 COPY . .
 EXPOSE 3000
 
-# configure the container to run in an executed manner
-ENTRYPOINT [ "python" ]
-
-CMD ["manage.py", "run" ]
+RUN chmod +x init.sh
+ENTRYPOINT ["./init.sh"]
