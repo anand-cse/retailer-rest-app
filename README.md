@@ -1,29 +1,32 @@
-#### FLASK RESTX BOILER-PLATE WITH JWT
+#### RETAILER_APP REST API WITH JWT AUTH
 
 ### Terminal commands
-Note: make sure you have `pip` and `virtualenv` installed.
+Note: make sure you have `docker` installed.
 
-    Initial installation: make install
+To build: 
 
-    To run test: make tests
+    docker image build -t anakin-assignment .
 
-    To run application: make run
+To run application: 
 
-    To run all commands at once : make all
+    docker compose up
+
 
 Make sure to run the initial migration commands to update the database.
     
-    > python manage.py db init
+    > export FLASK_APP=manage.py    # required to use flask cli
+    
+    > flask db init
 
-    > python manage.py db migrate --message 'initial database migration'
+    > flask db migrate --message 'initial database migration'
 
-    > python manage.py db upgrade
+    > flask db upgrade
 
 
 ### Viewing the app ###
 
     Open the following url on your browser to view swagger documentation
-    http://127.0.0.1:5000/
+    http://127.0.0.1:3000/
 
 
 ### Using Postman ####

@@ -6,9 +6,9 @@ from sqlalchemy.orm import relationship
 from app.main import db
 
 
-class PromotionType(enum.Enum):
-    FLAT = 0
-    PERCENTAGE = 1
+class PromotionType(str, enum.Enum):
+    FLAT = "FLAT"
+    PERCENTAGE = "PERCENTAGE"
 
 
 class Promotion(db.Model):
@@ -16,7 +16,7 @@ class Promotion(db.Model):
     __tablename__ = "promotion"
 
     id = db.Column(db.String(255), primary_key=True)
-    name = db.Column(db.String(255), unique=True, nullable=False)
+    name = db.Column(db.String(255), nullable=False)
     type = db.Column(db.Enum(PromotionType), nullable=False)
     discount = db.Column(db.Float(), nullable=False)
     is_active = db.Column(db.Boolean(), nullable=False, default=True)
