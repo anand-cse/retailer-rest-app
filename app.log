@@ -1,0 +1,25 @@
+[2022-08-07 22:57:21]-[_internal.py:224]-[WARNING]- * Debugger is active!
+[2022-08-07 22:57:21]-[_internal.py:224]-[INFO]- * Debugger PIN: 129-996-649
+[2022-08-07 22:57:32]-[product_controller.py:36]-[DEBUG]-filters::{'retailer_id': None}
+[2022-08-07 22:57:32]-[_internal.py:224]-[INFO]-127.0.0.1 - - [07/Aug/2022 22:57:32] "GET /product/ HTTP/1.1" 200 -
+[2022-08-07 23:02:52]-[_internal.py:224]-[INFO]-127.0.0.1 - - [07/Aug/2022 23:02:52] "GET / HTTP/1.1" 200 -
+[2022-08-07 23:02:52]-[_internal.py:224]-[INFO]-127.0.0.1 - - [07/Aug/2022 23:02:52] "[36mGET /swaggerui/droid-sans.css HTTP/1.1[0m" 304 -
+[2022-08-07 23:02:52]-[_internal.py:224]-[INFO]-127.0.0.1 - - [07/Aug/2022 23:02:52] "[36mGET /swaggerui/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+[2022-08-07 23:02:52]-[_internal.py:224]-[INFO]-127.0.0.1 - - [07/Aug/2022 23:02:52] "[36mGET /swaggerui/swagger-ui.css HTTP/1.1[0m" 304 -
+[2022-08-07 23:02:52]-[_internal.py:224]-[INFO]-127.0.0.1 - - [07/Aug/2022 23:02:52] "[36mGET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+[2022-08-07 23:02:52]-[_internal.py:224]-[INFO]-127.0.0.1 - - [07/Aug/2022 23:02:52] "GET /swagger.json HTTP/1.1" 200 -
+[2022-08-07 23:02:52]-[_internal.py:224]-[INFO]-127.0.0.1 - - [07/Aug/2022 23:02:52] "[36mGET /swaggerui/favicon-32x32.png HTTP/1.1[0m" 304 -
+[2022-08-07 23:04:41]-[_internal.py:224]-[INFO]- * Detected change in '/Users/anandthakkar/Desktop/projects/anakin-assignment/app/main/config.py', reloading
+[23:04:42] {/Users/anandthakkar/Desktop/projects/anakin-assignment/venv/lib/python3.8/site-packages/werkzeug/_internal.py:224} INFO -  * Restarting with stat
+[2022-08-07 23:04:42]-[_internal.py:224]-[WARNING]- * Debugger is active!
+[2022-08-07 23:04:42]-[_internal.py:224]-[INFO]- * Debugger PIN: 129-996-649
+[2022-08-07 23:07:29]-[_internal.py:224]-[INFO]- * Detected change in '/Users/anandthakkar/Desktop/projects/anakin-assignment/app/main/config.py', reloading
+[23:07:29] {/Users/anandthakkar/Desktop/projects/anakin-assignment/venv/lib/python3.8/site-packages/werkzeug/_internal.py:224} INFO -  * Restarting with stat
+[2022-08-07 23:07:29]-[_internal.py:224]-[WARNING]- * Debugger is active!
+[2022-08-07 23:07:29]-[_internal.py:224]-[INFO]- * Debugger PIN: 129-996-649
+[2022-08-07 23:08:17]-[_internal.py:224]-[INFO]- * Detected change in '/Users/anandthakkar/Desktop/projects/anakin-assignment/app/main/config.py', reloading
+[23:08:17] {/Users/anandthakkar/Desktop/projects/anakin-assignment/venv/lib/python3.8/site-packages/werkzeug/_internal.py:224} INFO -  * Restarting with stat
+[2022-08-07 23:08:17]-[_internal.py:224]-[WARNING]- * Debugger is active!
+[2022-08-07 23:08:17]-[_internal.py:224]-[INFO]- * Debugger PIN: 129-996-649
+[2022-08-07 23:08:27]-[_internal.py:224]-[INFO]- * Detected change in '/Users/anandthakkar/Desktop/projects/anakin-assignment/manage.py', reloading
+[23:08:27] {/Users/anandthakkar/Desktop/projects/anakin-assignment/venv/lib/python3.8/site-packages/werkzeug/_internal.py:224} INFO -  * Restarting with stat

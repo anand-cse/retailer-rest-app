@@ -1,0 +1,32 @@
+version: '3.7'
+
+networks:
+  app_network:
+    name: app_network
+    external: false
+
+services:
+  mysql:
+    container_name: mysql_container
+    environment:
+      MYSQL_ROOT_PASSWORD: "root"
+    command: --init-file /data/application/init.sql
+    volumes:
+      - ./init.sql:/data/application/init.sql
+    ports:
+      - "3306:3306"
+    image: "mysql:8.0"
+    restart: always
+    networks:
+      - app_network
+
+  python_app:
+    container_name: flask_container
+    ports:
+      - "3000:3000"
+    image: "anakin-assignment"
+    restart: always
+    env_file:
+      - .env
+    networks:
+      - app_network
